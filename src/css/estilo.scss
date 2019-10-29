@@ -1,7 +1,8 @@
 $Preto: black;
 $Branco: white;
 $Gelo: #ddd;
-$Vermelho:red;
+$Verde:#2ecc71;
+$Roxo:purple;
 $Capslock: uppercase;
 $Fonte: "Space Mono", monospace;
 $Título: 3rem; /*esse é no mobile first na parallax*/
@@ -107,26 +108,16 @@ body {
   text-transform: $Capslock;
   margin-bottom: 10px;
 }
+.servico-titulo-hack{
+  font-size: $Título-Section;
+  text-transform: $Capslock;
+  margin-bottom: 10px;
+  color:$Roxo;
+}
 .servico-desc {
   font-size: $Descrição;
 }
-.projetos-destaques {
-  font-weight: $Negrito;
-  color:$Branco;
-}
-.projetos-destaques i{
-  color: $Branco;
-}
-.hackathon{
-  color:$Vermelho;
-  font-weight: $Negrito;
-  text-transform: $Capslock;
-}
-.titulo-hackathon{
-  color:$Branco;
-  @extend %titulos;
-  @extend %align-centro;
-}
+
 // sobre
 .sobre-section {
   width: 100%;
@@ -167,9 +158,51 @@ body {
   height: 100%;
   border: none;
 }
+// hackathon
+.conter{
+  padding:10px;
+  position:relative;
+}
 
+.conter:before{
+  content:'';
+  width:8px;
+  height: 100%;
+  background:$Preto;
+  position:absolute;
+  left:20px;
+}
 
+.content{
+  background:$Branco;
+  padding:20px;
+  margin:20px 60px;
+  border-radius:8px;
+  position: relative;
+}
 
+.content:before{
+  content:'';
+  width:20px;
+  height:50px;
+  background:$Branco;
+  position:absolute;
+  left:-10px;
+  top:50%;
+  transform: translatey(-50%) rotate(40deg);
+}
+.content:after{
+  content:'';
+  width:36px;
+  height:36px;
+  background:$Verde;
+  border: 4px solid $Preto;
+  border-radius: 50%;
+  position:absolute;
+  left:-65px;
+  top:50%;
+  transform: translatey(-50%);
+}
 // contato
 .contato-section{
   padding: 80px 0;

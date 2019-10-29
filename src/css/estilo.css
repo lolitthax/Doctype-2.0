@@ -4,7 +4,7 @@
 /*subtítulos das sections*/
 /*título da parallax no desktop*/
 /*sub desktop parallax*/
-.section-titulo, .titulo-hackathon {
+.section-titulo {
   text-transform: uppercase;
   font-size: 1.7rem;
 }
@@ -20,7 +20,7 @@
   text-align: justify;
 }
 
-.section-titulo, .texto, .box, .titulo-hackathon, .contato-section {
+.section-titulo, .texto, .box, .contato-section {
   text-align: center;
 }
 
@@ -95,27 +95,15 @@ body {
   margin-bottom: 10px;
 }
 
+.servico-titulo-hack {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: purple;
+}
+
 .servico-desc {
   font-size: 16px;
-}
-
-.projetos-destaques {
-  font-weight: bolder;
-  color: white;
-}
-
-.projetos-destaques i {
-  color: white;
-}
-
-.hackathon {
-  color: red;
-  font-weight: bolder;
-  text-transform: uppercase;
-}
-
-.titulo-hackathon {
-  color: white;
 }
 
 .sobre-section {
@@ -159,6 +147,52 @@ body {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+.conter {
+  padding: 10px;
+  position: relative;
+}
+
+.conter:before {
+  content: '';
+  width: 8px;
+  height: 100%;
+  background: black;
+  position: absolute;
+  left: 20px;
+}
+
+.content {
+  background: white;
+  padding: 20px;
+  margin: 20px 60px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.content:before {
+  content: '';
+  width: 20px;
+  height: 50px;
+  background: white;
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translatey(-50%) rotate(40deg);
+}
+
+.content:after {
+  content: '';
+  width: 36px;
+  height: 36px;
+  background: #2ecc71;
+  border: 4px solid black;
+  border-radius: 50%;
+  position: absolute;
+  left: -65px;
+  top: 50%;
+  transform: translatey(-50%);
 }
 
 .contato-section {
