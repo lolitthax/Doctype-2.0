@@ -100,6 +100,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px;
   color: purple;
+  font-weight: bold;
 }
 
 .servico-desc {
@@ -164,7 +165,7 @@ body {
 }
 
 .content {
-  background: white;
+  background-color: #ddd;
   padding: 20px;
   margin: 20px 60px;
   border-radius: 8px;
@@ -175,7 +176,7 @@ body {
   content: '';
   width: 20px;
   height: 50px;
-  background: white;
+  background-color: #ddd;
   position: absolute;
   left: -10px;
   top: 50%;

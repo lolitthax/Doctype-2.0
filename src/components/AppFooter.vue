@@ -47,7 +47,7 @@ html, body {
 }
 
 body {
-  /* font-size: 14px; */
+ 
   margin: auto;
   display: flex;
   flex-flow: column nowrap;
@@ -122,7 +122,7 @@ footer {
   color: #fff;
   align-items:  center;
   text-align: justify;
-  /* justify-content: center; */
+
 }
 
 .footer-social-overlap > a:not(:first-child) {
@@ -139,21 +139,12 @@ footer {
   .footer-social-overlap > a {
     font-size: 2.5rem;
   }
-  /* .footer-social-section {
-    justify-content: center;
 
-  } */
-  /* .footer-bottom-section {
-    margin-right: auto;
-  } */
   .footer-social-overlap {
     display: flex;
     justify-content: center;
   }
-  /* .footer-social-icons-wrapper {
-    width: 100%;
-    padding: 0;
-  } */
+
   .footer-bottom-section {
     padding: 0 5px 10px 5px;
   }

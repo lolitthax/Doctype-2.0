@@ -68,21 +68,21 @@
                   <time datetime="”10-11-2019”">10/11</time> à 11:59pm de
                   <time datetime="”03-12-2019”">03/12</time>
                 </p>
-                <p>Período de inscrições.</p>
+                <p class="servico-desc">Período de inscrições.</p>
               </div>
               <div class="content" title="Dia do evento">
                 <p class="servico-titulo-hack">
                   <time datetime="”10-12-2019”">10/11</time> e
                   <time datetime="”11-12-2019”">03/12</time> das 09:00am às 05:00pm
                 </p>
-                <p>12ª edição do #Hackathon 2019</p>
+                <p class="servico-desc">12ª edição do #Hackathon 2019</p>
               </div>
               <div class="content" title="Divulgação dos resultados">
                 <p class="servico-titulo-hack">
                   A partir da 12:00pm do dia
                   <time datetime="”10-12-2019”">20/12</time>
                 </p>
-                <p>Divulgação dos resultados e equipe vencedora. Não esqueça de verificar seu email!</p>
+                <p class="servico-desc" >Divulgação dos resultados e equipe vencedora. Não esqueça de verificar seu email!</p>
               </div>
             </div>
           </section>
@@ -126,7 +126,7 @@ export default {
 <style scoped>
 p {
   padding-top: 10px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 li {
   list-style: none;
